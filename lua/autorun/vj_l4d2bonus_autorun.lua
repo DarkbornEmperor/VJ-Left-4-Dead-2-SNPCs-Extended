@@ -6,7 +6,7 @@
 --------------------------------------------------*/
 ------------------ Addon Information ------------------
 local PublicAddonName = "Left 4 Dead 2 Bonus SNPCs"
-local AddonName = "Left 4 Dead 2 Bonus"
+local AddonName = "Left 4 Dead 2"
 local AddonType = "SNPC"
 local AutorunFile = "autorun/vj_l4d2bonus_autorun.lua"
 -------------------------------------------------------
