@@ -38,11 +38,6 @@ if VJExists == true then
 	VJ.AddNPC("Random Common Infected Spawner","sent_vj_l4d2_cominf_sp",vCat)
 	VJ.AddNPC("Random Common Infected","sent_vj_l4d2_cominf",vCat)
 	
-		VJ.AddParticle("particles/vj_l4d_screamer_fx.pcf",{
-		"screamer_explode",
-		"screamer_vomit",
-	})
-	
 	-- Precache Models --
 	util.PrecacheModel("models/cpthazama/l4d1/anim_common.mdl")
 	util.PrecacheModel("models/darkborn/l4d2/common/common_female_formal.mdl")
