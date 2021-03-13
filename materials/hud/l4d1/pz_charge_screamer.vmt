@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+$baseTexture "hud\l4d1/PZ_charge_screamer"
+$translucent 1
+$vertexcolor 1
+$vertexalpha 1
+$ignorez 1
+}

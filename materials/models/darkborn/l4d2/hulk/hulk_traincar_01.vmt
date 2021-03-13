@@ -1,0 +1,18 @@
+VertexLitGeneric
+{
+$baseTexture "models\darkborn\l4d2\hulk\Hulk_Traincar_01"
+$bumpmap "models\darkborn\l4d2\hulk\hulk_traincar_01_normal"
+
+$ambientocclusion 1
+
+	"$phongexponenttexture" "vj_base/exponent"
+
+	
+	"$phong"				"1"
+	"$phongexponent"		"30"
+	"$phongboost"			"10"
+	"$phongfresnelranges"	"[0.67 0.83 1]"
+	"$phongalbedotint"		"1"
+	
+$lightwarptexture "models\cpthazama\l4d2\coach_head_wrp"
+}

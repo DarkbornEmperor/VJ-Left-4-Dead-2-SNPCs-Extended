@@ -1,0 +1,10 @@
+patch
+{
+include "materials/models\darkborn\l4d2\common\cif_head_include.vmt"
+insert
+{
+$basetexture "models\darkborn\l4d2\common\cif_head_bangs"
+$WOUNDED 1
+$BURNING 1
+}
+}

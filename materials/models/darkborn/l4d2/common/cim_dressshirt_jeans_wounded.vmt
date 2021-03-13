@@ -1,0 +1,10 @@
+patch
+{
+include "materials/models\darkborn\l4d2\common\ci_body_include.vmt"
+insert
+{
+$basetexture "models\darkborn\l4d2\common\cim_dressShirt_jeans"
+$GRADIENTTEXTURE "models\darkborn\l4d2\common\ci_gradient_palette_b"
+$WOUNDED 1
+}
+}

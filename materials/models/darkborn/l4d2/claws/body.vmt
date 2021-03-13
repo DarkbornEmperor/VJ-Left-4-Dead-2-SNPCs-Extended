@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/darkborn/l4d2/claws/body_d"
+	"$allowdiffusemodulation" "0"
+}
