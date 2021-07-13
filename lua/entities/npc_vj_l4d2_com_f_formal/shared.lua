@@ -1,6 +1,6 @@
-ENT.Base 			= "npc_vj_l4d_com_female_l4d2"
+ENT.Base 			= "npc_vj_l4d2_com_female"
 ENT.Type 			= "ai"
-ENT.PrintName 		= "Common Infected (Female Swamp)"
+ENT.PrintName 		= "Common Infected (Female Formal)"
 ENT.Author 			= "Darkborn"
 ENT.Contact 		= "http://steamcommunity.com/groups/vrejgaming"
 ENT.Purpose 		= "Spawn it and fight with it!"
