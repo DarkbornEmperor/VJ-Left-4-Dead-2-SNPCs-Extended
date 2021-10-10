@@ -1,6 +1,6 @@
 /*--------------------------------------------------
 	=============== Autorun File ===============
-	*** Copyright (c) 2012-2019 by DrVrej, All rights reserved. ***
+	*** Copyright (c) 2012-2021 by DrVrej, All rights reserved. ***
 	No parts of this code or any of its contents may be reproduced, copied, modified or adapted,
 	without the prior written consent of the author, unless otherwise indicated for stand-alone materials.
 --------------------------------------------------*/
@@ -14,29 +14,34 @@ local VJExists = file.Exists("lua/autorun/vj_base_autorun.lua","GAME")
 if VJExists == true then
 	include('autorun/vj_controls.lua')
 
+	if SERVER then
+		resource.AddWorkshop("2520496592")
+		resource.AddWorkshop("1770130953")
+		resource.AddWorkshop("2393175267")
+end
+
 	local vCat = "Left 4 Dead 2"
 	
 	-- Common Infected
 	VJ.AddNPC("Common Infected (Male)","npc_vj_l4d2_com_male",vCat)
     VJ.AddNPC("Common Infected (Female)","npc_vj_l4d2_com_female",vCat)
-    VJ.AddNPC("Common Infected (Male Swamp)","npc_vj_l4d2_com_m_swamp",vCat)
-    VJ.AddNPC("Common Infected (Female Swamp)","npc_vj_l4d2_com_f_swamp",vCat)
-	VJ.AddNPC("Common Infected (Rain)","npc_vj_l4d2_com_m_rain",vCat)
-	VJ.AddNPC("Common Infected (Female Rain)","npc_vj_l4d2_com_f_rain",vCat)
-    VJ.AddNPC("Common Infected (Biker)","npc_vj_l4d2_com_m_biker",vCat)
-	VJ.AddNPC("Common Infected (Male Formal)","npc_vj_l4d2_com_m_formal",vCat)
-	VJ.AddNPC("Common Infected (Female Formal)","npc_vj_l4d2_com_f_formal",vCat)
-	VJ.AddNPC("Common Infected (Whispering Oaks)","npc_vj_l4d2_com_m_whispoaks",vCat)
+    VJ.AddNPC("Common Infected (Male) (Swamp)","npc_vj_l4d2_com_m_swamp",vCat)
+    VJ.AddNPC("Common Infected (Female) (Swamp)","npc_vj_l4d2_com_f_swamp",vCat)
+	VJ.AddNPC("Common Infected (Male) (Rain)","npc_vj_l4d2_com_m_rain",vCat)
+	VJ.AddNPC("Common Infected (Female) (Rain)","npc_vj_l4d2_com_f_rain",vCat)
+    VJ.AddNPC("Common Infected (Male) (Biker)","npc_vj_l4d2_com_m_biker",vCat)
+	VJ.AddNPC("Common Infected (Male) (Formal)","npc_vj_l4d2_com_m_formal",vCat)
+	VJ.AddNPC("Common Infected (Female) (Formal)","npc_vj_l4d2_com_f_formal",vCat)
+	VJ.AddNPC("Common Infected (Male) (Whispering Oaks)","npc_vj_l4d2_com_m_whispoaks",vCat)
 		
 	-- Special Infected
 	VJ.AddNPC("Tank (The Sacrifice)","npc_vj_l4d2_tank_sacrifice",vCat)
 	VJ.AddNPC("Witch (The Passing)","npc_vj_l4d2_witch_passing",vCat)
-	VJ.AddNPC("Screamer","npc_vj_l4d_screamer","Left 4 Dead")
-	VJ.AddNPC("Claws","npc_vj_l4d2_claws",vCat)
 	
 	-- Spawners
 	VJ.AddNPC("Random Common Infected Spawner","sent_vj_l4d2_cominf_sp",vCat)
 	VJ.AddNPC("Random Common Infected","sent_vj_l4d2_cominf",vCat)
+	VJ.AddNPC("AI Director","sent_vj_l4d2_director",vCat,true)	
 	
 	-- Precache Models --
 	util.PrecacheModel("models/cpthazama/l4d1/anim_common.mdl")
@@ -58,8 +63,6 @@ if VJExists == true then
 	util.PrecacheModel("models/darkborn/l4d2/common/common_male_tanktop_cargos_swamp.mdl")
 	util.PrecacheModel("models/darkborn/l4d2/hulk_dlc3.mdl")
 	util.PrecacheModel("models/darkborn/l4d2/witch_bride.mdl")	
-	util.PrecacheModel("models/darkborn/l4d1/screamer.mdl")
-	util.PrecacheModel("models/darkborn/l4d2/claws.mdl")	
 	
 -- !!!!!! DON'T TOUCH ANYTHING BELOW THIS !!!!!! -------------------------------------------------------------------------------------------------------------------------
 	AddCSLuaFile(AutorunFile)
