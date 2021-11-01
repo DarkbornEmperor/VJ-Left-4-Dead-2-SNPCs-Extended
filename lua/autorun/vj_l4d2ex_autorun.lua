@@ -37,6 +37,8 @@ end
 	-- Special Infected
 	VJ.AddNPC("Tank (The Sacrifice)","npc_vj_l4d2_tank_sacrifice",vCat)
 	VJ.AddNPC("Witch (The Passing)","npc_vj_l4d2_witch_passing",vCat)
+	VJ.AddNPC("Screamer","npc_vj_l4d_screamer",vCat)
+	VJ.AddNPC("Claws","npc_vj_l4d2_claws",vCat)	
 	
 	-- Spawners
 	VJ.AddNPC("Random Common Infected Spawner","sent_vj_l4d2_cominf_sp",vCat)
